@@ -34,8 +34,6 @@ classDiagram
     AssetImporter <|-- ModelImporter
     AssetImporter <|-- TextureImporter
     AssetImporter <|-- AudioImporter
-    AssetPostprocessor <|-- ModelImporterAssetPostprocessor
-    AssetPostprocessor <|-- TextureImporterAssetPostprocessor
     Editor <|-- AssetImporterEditor
     Editor <|-- EditorWindow
     ScriptableObject <|-- AssetPostprocessor
@@ -101,11 +99,9 @@ classDiagram
     click AudioMixer href "https://docs.unity3d.com/ScriptReference/Audio.AudioMixer.html"
     click ShaderVariantCollection href "https://docs.unity3d.com/ScriptReference/ShaderVariantCollection.html"
     click AssetPostprocessor href "https://docs.unity3d.com/ScriptReference/AssetPostprocessor.html"
-    click ModelImporterAssetPostprocessor href "https://docs.unity3d.com/ScriptReference/ModelImporterAssetPostprocessor.html"
-    click TextureImporterAssetPostprocessor href "https://docs.unity3d.com/ScriptReference/TextureImporterAssetPostprocessor.html"
     click Editor href "https://docs.unity3d.com/ScriptReference/Editor.html"
     click EditorWindow href "https://docs.unity3d.com/ScriptReference/EditorWindow.html"
-    click AssetImporterEditor href "https://docs.unity3d.com/ScriptReference/AssetImporterEditor.html"
+    click AssetImporterEditor href "https://docs.unity3d.com/ja/2021.1/ScriptReference/AssetImporters.AssetImporterEditor.html"
     click UnityEditor href "https://docs.unity3d.com/ScriptReference/UnityEditor.html"    
     click Physics href "https://docs.unity3d.com/ScriptReference/Physics.html"
     click SceneManagement href "https://docs.unity3d.com/ScriptReference/SceneManagement.html"
